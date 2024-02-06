@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce Website</title>
+    <style>
+      .product {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      .product img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        margin-bottom: 10px;
+      }
+      .product .title {
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      .product .price {
+        margin-bottom: 5px;
+      }
+      .product .description {
+        margin-bottom: 10px;
+      }
+      .product .add-to-cart {
+        padding: 5px 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <div class="product">
+        <img src="product1.jpg" alt="Product 1" />
+        <div class="title">Nike Fear of God</div>
+        <div class="price">$115.99</div>
+        <div class="description">Nike Fear of God White sneakers</div>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="product2.jpg" alt="Product 2" />
+        <div class="title">Nike Air Force 1 Olive</div>
+        <div class="price">$59.99</div>
+        <div class="description">Nike Air Force Olive colour low top sneakers</div>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="product3.jpg" alt="Product 3" />
+        <div class="title">Puma BMW Neocat Mid</div>
+        <div class="price">$20.99</div>
+        <div class="description">PUMA BMW themed neocat high top sneakers</div>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="product4.jpg" alt="Product 4" />
+        <div class="title">Nike Lebron 13</div>
+        <div class="price">$80.99</div>
+        <div class="description">Nike leBron 13 Horror Flick (Friday the 13th edition)</div>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="product5.jpg" alt="Product 5" />
+        <div class="title">PUMA Playmaker</div>
+        <div class="price">$15.99</div>
+        <div class="description">PUMA Playmakers Black and White edition</div>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
